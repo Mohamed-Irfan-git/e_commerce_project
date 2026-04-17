@@ -80,6 +80,9 @@ export default function PaymentForm({ orderData }: Props) {
         hash: hashData.hash,
       };
 
+
+      
+
       window.payhere.startPayment(payment);
     } catch (error) {
       console.error(error);
